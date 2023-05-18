@@ -35,8 +35,50 @@ let songs = [
     src: "images/judgayi.jpg",
     singerName:"Rahat Fateh Ali Khan"
   },
+  {
+    name: "Malang Sajna",
+    path: "mp3/malang.mp3",
+    src: "images/malang.jpg",
+    singerName:"Sachet Tandon, Parampara Tandon"
+  },
+  {
+    name: "Bairiya",
+    path: "mp3/Bairiya(PagalWorld.com.se).mp3",
+    src: "images/bairaiya.jpg",
+    singerName:"Arijit Singh"
+  },
+  {
+    name: "Raatan Lambiyan",
+    path: "mp3/Raatan Lambiyan(PagalWorld.com.se).mp3",
+    src: "images/raatanlambiyan.jpg",
+    singerName:"Arijit Singh"
+  },
+  {
+    name: "Mere Sapno Ki Galiyon Mein",
+    path: "mp3/Mere Sapno Ki Galiyon Mein(PagalWorld.com.se).mp3",
+    src: "images/ranjhanave.jpg",
+    singerName:"Antara Mitra, Soham Naik"
+  },
+  {
+    name: "Kahani Suno",
+    path: "mp3/Kahani Suno(PagalWorld.com.se).mp3",
+    src: "images/kahanisuno.jpg",
+    singerName:"Kaifi Khalil"
+  },
+  {
+    name: "Chand Teri",
+    path: "mp3/Chand Teri Roshni Ka(PagalWorld.com.se).mp3",
+    src: "images/chandteri.jpg",
+    singerName:"K K"
+  },
   
 
+  {
+    name: "Tere Hawaale",
+    path: "mp3/Tere Hawaale(PagalWorld.com.se).mp3",
+    src: "images/hawale.jpg",
+    singerName:"Arijit Singh"
+  },
 
     {
       name: "Wafa Ne Bewafai",
@@ -62,12 +104,7 @@ let songs = [
       src: "images/letme.jpg",
       singerName:"Alec Benjamin, Arijit Singh"
     },
-    {
-      name: "Malang Sajna",
-      path: "mp3/malang.mp3",
-      src: "images/malang.jpg",
-      singerName:"Sachet Tandon, Parampara Tandon"
-    },
+   
    
   ];
   
