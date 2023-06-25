@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="shortcut icon" href="/images/musiclogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 d-flex align-items-center justify-content-center text-center">
+                <div class="music-player p-3">
+                    <div class="album-art">
+                      <img id="album-image" src="" alt="Album Art" class="img-fluid rounded" width="300px">
+                    </div>
+                    <div class="song-details mt-3">
+                      <h2 id="song-name" class="fs-4 fw-bold text-danger"></h2>
+                      <h3 id="singer-name" class="fs-5"></h3>
+                    </div>
+                    <audio id="audio-player" controls></audio>
+                   
+                  </div>
+            </div>
+            <div class="col-lg-6">
+              
+                <div class="playlist">
+                    <ol id="song-list"></ol>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
